@@ -13,6 +13,7 @@ body {
     line-height: 1.4;
     color: #011627;
     background-color: #fdfffc;
+    margin: 0;
 }
 
 img {
@@ -49,6 +50,56 @@ p {
     line-height: 1.5;
 }
 
+/********** ENTÊTE DU SITE **********/
+header {
+    text-align: center;
+    background-color: #011627;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+header .nom {
+    color: #2ec4b6 ;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin: 1rem 0;
+}
+
+header .metier {
+    margin-top: -5px;
+}
+
+header nav {
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0 10px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+/* Cache le 1er li de la ul */
+header nav ul li:first-child {
+    display: none;
+}
+
+header nav ul li a {
+    color: #fdfffc;
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+header nav ul li a:hover {
+    color: #2ec4b6 ;
+}
 
 
 
