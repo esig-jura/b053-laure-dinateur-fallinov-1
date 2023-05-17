@@ -100,6 +100,12 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #2ec4b6 ;
 }
+/********** CONTENU PRINCIPAL DU SITE *********/
+main {
+    margin: 0 5%;
+}
+
+/********** PIED DE PAGE DU SITE **********/
 
 
 
