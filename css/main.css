@@ -106,8 +106,31 @@ main {
 }
 
 /********** PIED DE PAGE DU SITE **********/
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
 
+footer nav ul {
+    padding: 0;
+}
 
+footer nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer nav ul li img {
+    width: 50px;
+    margin: 0 15px;
+    filter: grayscale(1);
+    transition: filter 500ms linear;
+}
+
+footer nav ul li img:hover {
+    width: 150px;
+    filter: grayscale(0);
+}
 
 
 
