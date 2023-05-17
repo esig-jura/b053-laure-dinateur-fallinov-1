@@ -1,14 +1,18 @@
+/* Importation du fichier fonts.css*/
+@import "fonts.css";
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 120%;
+    font-size: 100%;
     line-height: 1.4;
-    color: #000000;
-    background-color: #ffffff;
+    color: #011627;
+    background-color: #fdfffc;
 }
 
 img {
@@ -18,16 +22,41 @@ img {
 }
 
 a {
-    color: #00A24B;
+    color: #e71d36;
     text-decoration: none;
 }
 
-a:hover {
-    color: #E8A062;
+h1,
+h2,
+h3,
+h4
+{
+    font-family: 'Changa One', serif;
+    font-weight: 400;
 }
 
-h1,
-h2
-{
-    font-family: Georgia, serif;
+h1 {
+    font-size: 2rem;
+    margin: 0 0 1em 0;
 }
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0 0 .75em 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
