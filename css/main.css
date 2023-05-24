@@ -132,9 +132,52 @@ footer nav ul li img:hover {
     filter: grayscale(0);
 }
 
+/********* PAGE CONTACT *********/
+.page-contact .contact-info {
+    list-style-type: none;
+    padding: 0;
+}
 
+.page-contact .contact-info li {
+    margin-bottom: .5em;
+}
 
+.page-contact .contact-info li a {
+    padding-left: 30px;
 
+    background-image: url("../img/mail.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 0 -1px; /* 0 de la gauche 2px du haut */
+}
+/* ^= qui commence par */
+.page-contact .contact-info li a[href^="tel:"] {
+    background-image: url("../img/phone.png");
+}
+/* *= qui contient */
+.page-contact .contact-info li a[href*="facebook"] {
+    background-image: url("../img/facebook.png");
+}
+
+.page-contact .contact-info li a[href*="twitter"] {
+    background-image: url("../img/twitter.png");
+}
+
+/******** PAGE INFOS *********/
+/* Photo de Laure */
+.page-info .portrait {
+    border-radius: 50%;
+    border-top-right-radius: 20px;
+    max-width: 200px;
+    /* Pour centrer */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-info h1 {
+    text-align: center;
+}
 
 
 
