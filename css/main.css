@@ -179,6 +179,40 @@ footer nav ul li img:hover {
     text-align: center;
 }
 
+/******** PAGE ACCUEIL *********/
+
+.page-accueil .realisations {
+    /* Supprimer style de base de la liste à puce */
+    padding: 0; /* Supprimer la marge par défaut des listes*/
+    list-style-type: none; /* Supprime les puces */
+
+    /* Active Flex */
+    display: flex;
+    flex-direction: row; /* Affichage en colonne */
+    flex-wrap: wrap; /* Active le retour à la ligne */
+
+    /* Alignement des éléments */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.page-accueil .realisations li {
+    padding: 1rem 1%;
+    flex-basis: calc(50%); /* Taille des éléments */
+    flex-grow: 2; /* Peut prendre la place de deux éléments si libre */
+    flex-shrink: 1; /* Au minimum doit faire la tailler de 1 col */
+}
+
+.page-accueil .realisations li figure {
+    margin: 0; /* Supprime la marge par défaut des <figure> */
+    background-color: #e7e9eb;
+}
+
+.page-accueil .realisations li figcaption {
+    padding: 10px;
+}
+
 
 
 
