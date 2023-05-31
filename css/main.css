@@ -204,6 +204,10 @@ footer nav ul li img:hover {
     flex-shrink: 1; /* Au minimum doit faire la tailler de 1 col */
 }
 
+.page-accueil .realisations li a {
+    color: #011627;
+}
+
 .page-accueil .realisations li figure {
     margin: 0; /* Supprime la marge par défaut des <figure> */
     background-color: #e7e9eb;
@@ -212,6 +216,22 @@ footer nav ul li img:hover {
 .page-accueil .realisations li figcaption {
     padding: 10px;
 }
+
+@media screen and (min-width: 480px) {
+
+    .page-accueil .realisations li {
+        flex-basis: calc(33%); /* Taille des éléments */
+    }
+
+} /* Fin min-width: 480px */
+
+@media screen and (min-width: 780px) {
+
+    .page-accueil .realisations li {
+        flex-basis: calc(25%); /* Taille des éléments */
+    }
+
+} /* Fin min-width: 480px */
 
 
 
